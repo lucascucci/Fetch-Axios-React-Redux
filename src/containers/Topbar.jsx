@@ -6,7 +6,6 @@ const Header = ()=>{
             <div className="ui container center">
                 <h1>Shopping por Mayor</h1>
             </div>
-
         </div>
     )
 }

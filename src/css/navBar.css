@@ -1,0 +1,16 @@
+.ul {
+    color: rgb(182, 38, 38);
+    text-decoration: none;
+
+}
+
+.jota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.li{
+    font-size: 25px;
+}
