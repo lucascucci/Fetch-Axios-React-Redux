@@ -25,15 +25,16 @@ const ProductComponent = () => {
                             <div className="meta">{products.category}</div>
                         </div>
                         <div>
+                                    <h2>Selecciona cantidad:</h2>
+                                </div>
+                        <div>
                             <ButtonGroup variant="contained" aria-label="outlined primary button group">
-
+                                
                                 <Button>Unidad</Button>
                                 <Button>Dos Unidades</Button>
                                 <Button>Mas de 5</Button>
                             </ButtonGroup>
-                            <div>
-                                <h2>Selecciona cantidad:</h2>
-                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -45,7 +46,7 @@ const ProductComponent = () => {
         <>
 
             {renderList}
-            <ProductDetail/>
+            <ProductDetail />
         </>
     )
 

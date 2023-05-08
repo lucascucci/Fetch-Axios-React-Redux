@@ -1,3 +1,4 @@
+
 import equipo from "../css/equipo.css"
 
 const Equipo = () => {
