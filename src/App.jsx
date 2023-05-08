@@ -6,6 +6,7 @@ import ProducListing from './containers/ProductListing'
 import ProductDetail from './containers/ProductDetail'
 import NavBar from './containers/NavBar';
 
+import Equipo from './containers/Equipo';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
       
       <Routes>
 
-        <Route></Route>
+        <Route exact path= "/Equipo" element={<Equipo/>}/>
         <Route exact path= "/ProducListing" element={<ProducListing/>} />
         <Route exact path= "/Producto" element={<ProducListing/>} />
         <Route exact path="/product/:productId" element={<ProductDetail/>} />

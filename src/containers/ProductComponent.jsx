@@ -2,6 +2,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
+import ProductDetail from "./ProductDetail";
+
 
 
 const ProductComponent = () => {
@@ -43,7 +45,7 @@ const ProductComponent = () => {
         <>
 
             {renderList}
-
+            <ProductDetail/>
         </>
     )
 
