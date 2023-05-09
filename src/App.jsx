@@ -12,18 +12,15 @@ function App() {
 
   return (
     <>
+    
     <BrowserRouter>
-      <NavBar/>
       < Topbar />
-      
+      <NavBar/>
       <Routes>
-
-        <Route exact path= "/Equipo" element={<Equipo/>}/>
+        <Route exact path= "/Equipo" element={<Equipo/>} />
         <Route exact path= "/ProducListing" element={<ProducListing/>} />
         <Route exact path= "/Producto" element={<ProducListing/>} />
-        <Route exact path="/product/:productId" element={<ProductDetail/>} />
-
-
+        <Route exact path="/product/:productsId" element={<ProductDetail/>} />
       </Routes>
       
       </BrowserRouter>

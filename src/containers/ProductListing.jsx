@@ -7,7 +7,9 @@ import ProductComponent from "./ProductComponent";
 
 const ProducListing = () => {
         const products =useSelector((state)=> state);
+        
         const dispatch = useDispatch();
+        console.log(products);
         
         
         const fechtProducts = async() =>{
@@ -24,6 +26,7 @@ const ProducListing = () => {
         return (
                 <div className="ui grid container">
                         <ProductComponent/>
+                        
 
                 </div>
         )

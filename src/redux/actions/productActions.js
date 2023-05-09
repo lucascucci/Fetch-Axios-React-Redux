@@ -13,7 +13,7 @@ export const setProducts = (product) => {
 
 
 
-export const selectedProduc = (product) => {
+export const selectedProduct = (product) => {
     return {
         type:ActionTypes.SELECTED_PRODUCT,
         payload:product,

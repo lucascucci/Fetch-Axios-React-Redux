@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import ProductDetail from "./ProductDetail";
-
+import { Link } from "react-router-dom";
 
 
 const ProductComponent = () => {
@@ -34,8 +34,10 @@ const ProductComponent = () => {
                                 <Button>Dos Unidades</Button>
                                 <Button>Mas de 5</Button>
                             </ButtonGroup>
-
+                        <div>
+                        <Link to={`/product/:productId ${products.id}`}><button>Ver más</button></Link>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -46,10 +48,9 @@ const ProductComponent = () => {
         <>
 
             {renderList}
-            <ProductDetail />
+            
         </>
     )
-
 }
 
 export default ProductComponent;
